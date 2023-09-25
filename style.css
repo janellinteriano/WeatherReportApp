@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(228, 227, 227);
+    color:whitesmoke;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.container {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px .5px rgb(49, 48, 48);
+    background-color:deepskyblue;
+    text-shadow: 1px 1px dimgray;
+}
+img {
+    width: 120px;
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+    padding-top: 5%;
+}
+h2 {
+    padding-left: 5%;
+}
+.search-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-bar input {
+    border: 0;
+    outline: 0;
+    background-color: white;
+    border-radius: 12px;
+    margin: auto;
+    text-align: center;
+}
+.city-name {
+    font-size: 50px;
+    margin-top: -1%;
+}
+h5 {
+    font-size: 50px;
+}
+.numbers {
+    display: flex;
+    font-size: 20px;
+}
+.humid-wind-div {
+    display: inline-flex;
+}
+.humidity {
+    text-align: right;
+    font-size: 12px;
+    margin-left: 10%;
+}
+.wind-speed {
+    text-align: right;
+    font-size: 12px;
+    margin-right: 15%;
+}
+.humid-perc {
+    width: 80px;
+    margin-left: 20%;
+    font-size: 30px;
+}
+.wind-speed-number {
+    width: 150px;
+    margin-left: 34%;
+    font-size: 30px;
+}
+.wind-speed, .humidity {
+    display: inline-flex;
+    width: 400px;
+}
+.wind-icon, .water-icon {
+    font-size: 50px;
+    text-align: left;
+}
+.city-temp {
+    height: 50%;
+    text-align: center;
+}
+.temp {
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: 3%;
+}
